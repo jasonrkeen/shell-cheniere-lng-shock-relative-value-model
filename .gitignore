@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+.DS_Store
+data/cache/
+outputs/*.csv
+outputs/*.md
+outputs/*.pdf
+outputs/charts/*.png
+!outputs/.gitkeep
+!outputs/charts/.gitkeep
+# Retain publication-ready reference outputs
+!outputs/shell_cheniere_lng_shock_report.pdf
+!outputs/charts/scenario_equity_returns.png
+!outputs/charts/monte_carlo_return_distribution.png
+!outputs/charts/relative_value_threshold.png

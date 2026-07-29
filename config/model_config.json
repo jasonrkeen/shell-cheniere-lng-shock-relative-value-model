@@ -1,0 +1,50 @@
+{
+  "model": {
+    "version": "0.1.0",
+    "default_draws": 10000,
+    "default_seed": 20260728,
+    "global_lng_trade_mtpa": 422.0,
+    "price_elasticity_coefficient": 1.05,
+    "price_elasticity_exponent": 0.80,
+    "benchmark_gap_pct": 0.10,
+    "ttf_to_jkm_pass_through": 0.82,
+    "hh_to_jkm_pass_through": 0.18,
+    "residual_return_correlation": 0.45
+  },
+  "companies": {
+    "Shell": {
+      "ticker": "SHEL",
+      "annual_lng_sales_mtpa": 76.8,
+      "baseline_utilization": 0.90,
+      "integrated_gas_group_weight": 0.33,
+      "spot_price_exposure": 0.25,
+      "price_capture": 0.55,
+      "gulf_volume_dependency": 0.18,
+      "portfolio_flexibility": 0.65,
+      "trading_optionality": 0.12,
+      "freight_cost_exposure": 0.10,
+      "working_capital_intensity": 0.08,
+      "demand_destruction_exposure": 0.20,
+      "cashflow_to_equity_multiplier": 1.35,
+      "geopolitical_discount_beta": 0.60,
+      "fallback_market_beta": 0.80,
+      "fallback_annualized_volatility": 0.28
+    },
+    "Cheniere": {
+      "ticker": "LNG",
+      "annual_lng_capacity_mtpa": 53.0,
+      "baseline_utilization": 0.93,
+      "contracted_volume_share": 0.85,
+      "international_price_capture": 0.20,
+      "feedgas_cost_exposure": 0.35,
+      "freight_cost_exposure": 0.04,
+      "working_capital_intensity": 0.04,
+      "operational_strain_coefficient": 0.60,
+      "cashflow_to_equity_multiplier": 1.40,
+      "geopolitical_discount_beta": 0.30,
+      "fallback_market_beta": 1.00,
+      "fallback_annualized_volatility": 0.36
+    }
+  }
+}
+
